@@ -13,7 +13,7 @@ namespace BankApp
             // Membuat objek dari Program sendiri untuk mancing metode non-static di bawah
             Program aplikasi = new Program();
             
-            Console.WriteLine("=== SELAMAT DATANG DI APLIKASI TECHMART BANK ===");
+            Console.WriteLine("=== SELAMAT DATANG DI BANK FABIAN ===");
             
             // Panggil fungsi menu untuk pertama kali
             aplikasi.TampilkanMenuUtama();
@@ -65,7 +65,7 @@ namespace BankApp
                     
                     Console.WriteLine("\n--- KESIMPULAN EVALUASI AKHIR ---");
                     userAccount.TampilkanSaldo(); // Menunjukan saldo akhir aman dan tidak berkurang
-                    Console.WriteLine("[Hasil] Brankas TechMart terbukti aman dari serangan input."); // Tampilan hasil
+                    Console.WriteLine("[Hasil] Brankas terbukti aman dari serangan input."); // Tampilan hasil
                     Console.WriteLine("\n[Status] Program Berhasil Dihentikan."); // Menampilkan tulisan bahwa program telah dihentikan
                     // Program berhenti
                     break;
