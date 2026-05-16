@@ -16,7 +16,7 @@ namespace BankApp
         // Struktur untuk memunculkan informasi saldo terakhir
         public void TampilkanSaldo()
         {
-            Console.WriteLine("[TechMart Bank] Total saldo Anda sekarang: Rp" + saldo);
+            Console.WriteLine("[Fabian Bank] Total saldo Anda sekarang: Rp" + saldo);
         }
 
         // Logika if-else untuk validasi setor tunai
@@ -43,7 +43,7 @@ namespace BankApp
             }
             else
             {
-                Console.WriteLine("[PERINGATAN SISTEM] Transaksi gagal! Saldo TechMart Anda tidak cukup atau input salah."); 
+                Console.WriteLine("[PERINGATAN SISTEM] Transaksi gagal! Saldo Rekening Anda tidak cukup atau input salah."); 
                 // Notifikasi jika saldo kurang untuk tarik tunai atau penarikan melebihi saldo atau input angka kurang dari 0
             }
         }
